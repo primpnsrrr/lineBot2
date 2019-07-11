@@ -26,8 +26,7 @@ def callback():
     if (userText == 'กินข้าวยังบัง') :
         sendText(user,'ฉันข้าวเย็นแล้ว')
     elif (userText == 'ฉันข้าวเย็นบาปนะบัง') :
-        sendText(user,'บังอ่ะตัวเปิด')
-        sendText(user,'หมูไม่ขาด ละหมาดไม่เคย')
+        sendText(user,'บังอ่ะตัวเปิด หมูไม่ขาด ละหมาดไม่เคย')
     elif (userText == 'บังแม่งสุดว่ะ') :
         sendText(user,'หมูอยู่ในกระเพาะ อัลเลาะห์อยู่ในใจ')
     else :
